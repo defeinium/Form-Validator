@@ -11,4 +11,4 @@ JavaScript
 
 # Live View
 
-[LiveView](https://defeinium.github.io/form-validator/ "Form Validator")
+[LiveView](https://defeinium.github.io/Form-Validator/ "Form Validator")
