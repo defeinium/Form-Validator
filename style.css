@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 2px;
+  /* Display in center */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #cccccc;
+}
+
+/* Separate container from background */
+.container {
+  width: 480px;
+  height: 630px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* Beautify container */
+  border-radius: 60px;
+  box-shadow: 0 5px 30px 10px rgba(0,0,0,0.5);
+}
+
+/* Form */
+form {
+  width: 85%; 
+}
+
+.form-group {
+  height: 70px;
+}
+
+label {
+  position: relative;
+  bottom: 3px;
+}
+
+input {
+  width: 100%;
+  height: 34px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box; /* Ignore padding spacing & not allowed width to > 100% */
+  transition: all 0.3s;
+}
+
+input:valid {
+  border: 1px solid green;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+button {
+  cursor: pointer;
+  color: white;
+  background: black;
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  height: 50px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+
+button:hover {
+  filter: brightness(110%);
+  background: rgb(22,22,22);
+}
+
+button:focus {
+  outline: none;
+}
+
+.message-container {
+  border: none;
+  width: 100%;
+  height: 55px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
